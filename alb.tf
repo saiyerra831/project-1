@@ -7,7 +7,7 @@ resource "aws_lb" "tf-alb" {
 }
 
 resource "aws_lb_target_group" "tf-tg" {
-  name     = "alb-TG"
+  name     = "ALB-TG"
   port     = 80
   protocol = "HTTP"
   vpc_id   = aws_vpc.tf-vpc.id
