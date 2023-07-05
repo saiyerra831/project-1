@@ -1,4 +1,4 @@
-resource "aws_key_pair" "test" {
+resource "aws_key_pair" "tesst" {
   key_name   = "test"
   public_key = tls_private_key.rsa.public_key_openssh
 }
